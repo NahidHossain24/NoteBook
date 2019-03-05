@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bdss"
+    android:layout_height="match_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Serial No:"
+                android:layout_margin="4dp"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/editTextid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textSize="17sp"
+                android:hint="No Need To Enter Any Serial"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:layout_margin="4dp"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/editText_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textSize="17sp"
+                android:hint="dd/mm/yyyy"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/textView"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:text="Name:"
+           android:layout_margin="4dp"
+           android:textSize="17sp"/>
+
+       <EditText
+           android:id="@+id/editText_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="4dp"
+           android:textSize="17sp"
+           android:hint="Enter Your Name"
+           android:inputType="textPersonName"
+           />
+
+   </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Note:"
+                android:layout_margin="4dp"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/editText_surname"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:textSize="17sp"
+                android:padding="25dp"
+                android:textDirection="inherit"
+                android:background="@drawable/note"
+                android:hint="Witre Here"
+                android:inputType="textPersonName"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <Button
+                android:id="@+id/button_add"
+
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+              android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonshape"
+                android:text="Add Note"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button_viewall"
+              android:layout_marginLeft="40dp"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonshape"
+                android:text="View All"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <Button
+                android:id="@+id/button_update"
+
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonshape"
+                android:text="Update"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_marginLeft="40dp"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonshape"
+                android:text="Delete"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
